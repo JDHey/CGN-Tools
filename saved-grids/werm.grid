@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grid left-hand straddle biddle col="5">
+  <beat>
+    <action>
+      <packet pos="1"><top two><flat-rotate degree="-90"/></top><bottom five/></packet>
+      <packet pos="2"><top two/><bottom six/></packet>
+      <packet pos="3"><top eight/><bottom six><flat-rotate degree="90"/></bottom></packet>
+    </action> 
+    <action>
+      <packet pos="3"><top eight/><bottom six/></packet>
+      <packet pos="4" single><top eight><flat-rotate degree="90"/></top><bottom five/><face-grip><top seven force="sh"></face-grip></packet>
+    </action>
+  </beat>
+  <repeat amount="2">
+    <beat>
+      <action>
+        <packet pos="2"><top two><flat-rotate degree="-30" force="hm"/></top><bottom six/></packet>
+        <packet pos="4" single><top eight/><bottom five><flat-rotate degree="90" force="hm"/></buttom></packet>
+      </action>
+    </beat>
+    <beat>
+     <action>
+        <packet pos="2"><top two><flat-rotate degree="90" force="hm"/></top><bottom six/></packet>
+        <packet pos="4" single><top eight/><bottom five><flat-rotate degree="-90" force="hm"/></buttom></packet>
+     </action>
+    </beat>
+  </repeat>
+  <beat>
+    <action>
+        <packet pos="3"><top eight/><bottom six/></packet>
+        <packet pos="5"><top five/><bottom six><flat-rotate degree="-30"/></bottom><face-grip><bottom><one force="ll"/></bottom></face-grip></packet>
+    </action>
+  </beat>
+  <beat>
+    <action>
+        <packet pos="2"><bottom one/></packet>
+    </action>
+    <action>
+        <packet pos="5"><top five/><center><flat-rotate degree="-90" force="hm"/></centre><bottom six/></packet>
+    </action>
+  </beat>
+  <pause />
+  <beat>
+    <action>
+      <packet pos="5"><top five/><center><flat-rotate degree="180" force="hm"/></centre><bottom six/></packet>
+    </action>
+    <action>
+      <packet pos="1" />
+      <packet pos="2" closing><top two><flat-rotate degree="-90" /></top><bottom><one force="sh"/></bottom></packet>
+    </action>
+    <action>
+      <packet pos="3"><top eight/><bottom six/></packet>
+      <packet pos="4" closing><top eight><flat-rotate degree="-90" /></top><face-grip><top><seven force="ll"/></top></face-grip></packet>
+    </action>
+  </beat>
+</grid>
