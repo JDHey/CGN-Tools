@@ -19,7 +19,7 @@ export class AppComponent {
       let loadFile: string = <string>reader.result;
       loadFile = JSON.stringify(loadFile);
       if (loadFile !== '') {
-        console.log('user - ',loadFile); 
+        console.log('File: ',loadFile); 
       } else {
         console.log('NULL');
       }
